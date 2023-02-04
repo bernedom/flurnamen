@@ -1,6 +1,6 @@
 ---
 layout: post
-thumbnail: images/gigelwald.png
+thumbnail: images/gigeliwald.png
 ---
 
 ## Gigeliwald
