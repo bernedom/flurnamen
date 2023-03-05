@@ -22,6 +22,9 @@ layout: default
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
+    {% if page.thumbnail != null %}
+    <img src="{{ site.baseurl }}/{{ page.thumbnail }}" alt="{{ page.title }}" class="thumbnail" />
+    {% endif %}
     {{ content }}
     {% include navlinks.html %}
   </div>
