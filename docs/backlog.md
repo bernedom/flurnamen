@@ -1,4 +1,4 @@
-Gimmermee
+
 Holzschuepisse
 Chline Arsch Grosse Arsch
 Ecce Home
@@ -14,6 +14,7 @@ Grossäti
 Speck
 Brot-Zeindli
 Schnapsflue
+Hirni
 
 Pierre de Niton
 Mittelpunkt der Schweiz
