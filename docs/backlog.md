@@ -10,7 +10,8 @@ Tüüfelsfüdli
 Speck
 Brot-Zeindli
 Schnapsflue
-Hirni
+Hexengraben
+Tubel
 
 Pierre de Niton
 Mittelpunkt der Schweiz
