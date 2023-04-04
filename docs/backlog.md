@@ -7,7 +7,7 @@ Wienacht
 End der Welt
 Samichlauswald
 Tüüfelsfüdli
-Speck
+Speckbaum -> Specha Rute Bündel https://de.wikipedia.org/wiki/Specke_(Stra%C3%9Fenbau)
 Brot-Zeindli
 Schnapsflue
 Hexengraben
