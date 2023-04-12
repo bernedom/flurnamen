@@ -1,5 +1,3 @@
-
-Holzschuepisse
 Schnäbeli
 fickenloch
 Le Pissoir
@@ -12,6 +10,13 @@ Brot-Zeindli
 Schnapsflue
 Hexengraben
 Tubel
+Hackbart
+Schisstal
+Gaggi
+Wurst
+Sibirien
+Gurgeli
+
 
 Pierre de Niton
 Mittelpunkt der Schweiz
