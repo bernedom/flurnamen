@@ -14,11 +14,9 @@ Hackbart
 Schisstal
 Gaggi
 Wurst
-Sibirien
 Gurgeli
 
 
-Pierre de Niton
 Mittelpunkt der Schweiz
 tiefester Punkt
 Höchster Punkt
