@@ -1,13 +1,10 @@
-Schnäbeli
 fickenloch
 Le Pissoir
 Wienacht 
 End der Welt
 Samichlauswald
-Tüüfelsfüdli
-Speckbaum -> Specha Rute Bündel https://de.wikipedia.org/wiki/Specke_(Stra%C3%9Fenbau)
+Speckbaum -> Specha Rute Bündel https://de.wikipedia.org/wiki/Specke_(Stra%C3%9Fenbau) - Beim Metzger wachsen die Cervelats im Garten und der Speck am 
 Brot-Zeindli
-Schnapsflue
 Hexengraben
 Tubel
 Hackbart
@@ -15,6 +12,11 @@ Schisstal
 Gaggi
 Wurst
 Gurgeli
+Häx
+Hexentobel
+honig
+Geiss
+Geiss-Chopf
 
 
 Mittelpunkt der Schweiz
