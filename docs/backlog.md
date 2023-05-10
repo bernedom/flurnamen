@@ -17,7 +17,13 @@ Hexentobel
 honig
 Geiss
 Geiss-Chopf
-
+Zöpfli
+Zopf
+Weggli
+Lasagn
+Zwibacki
+Saucisson
+Grand Sex
 
 Mittelpunkt der Schweiz
 tiefester Punkt
