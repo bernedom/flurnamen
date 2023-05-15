@@ -24,6 +24,7 @@ Lasagn
 Zwibacki
 Saucisson
 Grand Sex
+Blutwurstmatten
 
 Mittelpunkt der Schweiz
 tiefester Punkt
