@@ -3,7 +3,6 @@ Le Pissoir
 Wienacht 
 End der Welt
 Samichlauswald
-Speckbaum -> Specha Rute Bündel https://de.wikipedia.org/wiki/Specke_(Stra%C3%9Fenbau) - Beim Metzger wachsen die Cervelats im Garten und der Speck am 
 Brot-Zeindli
 Hexengraben
 Tubel
