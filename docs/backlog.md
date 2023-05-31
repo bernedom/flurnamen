@@ -21,9 +21,17 @@ Zopf
 Weggli
 Lasagn
 Zwibacki
-Saucisson
 Grand Sex
 Blutwurstmatten
+Erster Gang
+Chlepfhütte
+Weisstannen
+Luegisland
+Leber
+Aa bis Zett
+Zorn
+Mörderchöpf
+Hübschböden
 
 Mittelpunkt der Schweiz
 tiefester Punkt
