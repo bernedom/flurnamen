@@ -27,7 +27,6 @@ Erster Gang
 Chlepfhütte
 Weisstannen
 Luegisland
-Leber
 Aa bis Zett
 Zorn
 Mörderchöpf
