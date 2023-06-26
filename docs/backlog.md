@@ -32,6 +32,8 @@ Zorn
 Mörderchöpf
 Hübschböden
 Underem Heinz
+Güllen
+Schnapsgrotzen
 
 Mittelpunkt der Schweiz
 tiefester Punkt
