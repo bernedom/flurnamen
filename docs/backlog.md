@@ -34,6 +34,7 @@ Hübschböden
 Underem Heinz
 Güllen
 Schnapsgrotzen
+Froschgüllen
 
 Mittelpunkt der Schweiz
 tiefester Punkt
