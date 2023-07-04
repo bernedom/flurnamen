@@ -1,5 +1,5 @@
 ---
-title: "End der Welt"
+title: "in de Brüch"
 layout: post
 thumbnail: images/in-de-bruech.png
 excerpt_separator: <!--more-->

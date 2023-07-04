@@ -1,7 +1,6 @@
 fickenloch
 Le Pissoir
 Wienacht 
-End der Welt
 Samichlauswald
 Brot-Zeindli
 Hexengraben
