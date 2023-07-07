@@ -31,9 +31,14 @@ Zorn
 Mörderchöpf
 Hübschböden
 Underem Heinz
-Güllen
 Schnapsgrotzen
 Froschgüllen
+Zipfel
+Schatz
+Schnuderen
+Chnebel
+Schlegi
+
 
 Mittelpunkt der Schweiz
 tiefester Punkt
