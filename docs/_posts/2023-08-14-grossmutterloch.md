@@ -1,7 +1,7 @@
 ---
 title: "Grossmutterloch"
 layout: post
-thumbnail: images/Grossmutterloch.png
+thumbnail: images/grossmutterloch.png
 excerpt_separator: <!--more-->
 ---
 
