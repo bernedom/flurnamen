@@ -1,5 +1,4 @@
 fickenloch
-Le Pissoir
 Wienacht 
 Samichlauswald
 Brot-Zeindli
@@ -36,7 +35,6 @@ Zipfel
 Schatz
 Schnuderen
 Chnebel
-Schlegi - Im Ausgang soll man sich benehmen, sonst gibts 
 Bulle - Am ersten Mai trifft man neben Demonstranten in Zürich oft auch 
 
 
