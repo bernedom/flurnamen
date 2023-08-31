@@ -1,7 +1,6 @@
 fickenloch
 Wienacht 
 Samichlauswald
-Brot-Zeindli
 Hexengraben
 Tubel
 Hackbart
@@ -36,6 +35,30 @@ Schatz
 Schnuderen
 Chnebel
 Bulle - Am ersten Mai trifft man neben Demonstranten in Zürich oft auch 
+Fickrüti
+Chatzenstrich - Wer seinen Kater zum Decken anbietet, betreibt sozusagen einen Chatzenstrich.
+Busen
+Fotzenacker
+Tartar
+Knoblauch
+Chäs
+Tee
+Süesstrunk
+Chupferhammer
+Kamel
+Schnegg
+Nussloch
+Pfeifensack
+Schläg
+Pool
+Schlitten - Ich heb de 
+Hanfland
+Libanon
+turin
+Prag
+Moskau
+Neu York
+Algier
 
 
 Mittelpunkt der Schweiz
