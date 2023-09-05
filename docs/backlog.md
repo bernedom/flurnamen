@@ -59,7 +59,10 @@ Prag
 Moskau
 Neu York
 Algier
-
+Wässerig
+Ziel
+Wiler vor Holz
+Schlund
 
 Mittelpunkt der Schweiz
 tiefester Punkt
