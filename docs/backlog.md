@@ -58,11 +58,11 @@ turin
 Prag
 Moskau
 Neu York
-Algier
 Wässerig
 Ziel
 Wiler vor Holz
 Schlund
+Gnadental
 
 Mittelpunkt der Schweiz
 tiefester Punkt
