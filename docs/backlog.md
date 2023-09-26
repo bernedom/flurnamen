@@ -63,6 +63,7 @@ Ziel
 Wiler vor Holz
 Schlund
 Gnadental
+Glacier de Merdere / Scheissgletscher
 
 Mittelpunkt der Schweiz
 tiefester Punkt
