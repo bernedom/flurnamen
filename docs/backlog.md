@@ -1,10 +1,8 @@
-fickenloch
 Wienacht 
 Samichlauswald
 Hexengraben
 Tubel
 Hackbart
-Schisstal
 Gaggi
 Wurst
 Gurgeli
@@ -44,21 +42,18 @@ Knoblauch
 Chäs
 Tee
 Süesstrunk
-Chupferhammer
 Kamel
 Schnegg
 Nussloch
 Pfeifensack
 Schläg
 Pool
-Schlitten - Ich heb de 
 Hanfland
 Libanon
 turin
 Prag
 Moskau
 Neu York
-Wässerig
 Ziel
 Wiler vor Holz
 Schlund
