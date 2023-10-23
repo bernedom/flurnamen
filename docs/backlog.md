@@ -34,7 +34,6 @@ Schnuderen
 Chnebel
 Bulle - Am ersten Mai trifft man neben Demonstranten in Zürich oft auch 
 Fickrüti
-Chatzenstrich - Wer seinen Kater zum Decken anbietet, betreibt sozusagen einen Chatzenstrich.
 Busen
 Fotzenacker
 Tartar
@@ -59,6 +58,8 @@ Wiler vor Holz
 Schlund
 Gnadental
 Glacier de Merdere / Scheissgletscher
+Geisterstein - Halloween
+Le Pénis
 
 Mittelpunkt der Schweiz
 tiefester Punkt
