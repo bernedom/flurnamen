@@ -60,6 +60,8 @@ Gnadental
 Glacier de Merdere / Scheissgletscher
 Geisterstein - Halloween
 Le Pénis
+Höll
+Chrüzbiger
 
 Mittelpunkt der Schweiz
 tiefester Punkt
