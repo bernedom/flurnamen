@@ -52,7 +52,6 @@ Libanon
 turin
 Prag
 Moskau
-Neu York
 Ziel
 Wiler vor Holz
 Schlund
@@ -60,7 +59,7 @@ Gnadental
 Glacier de Merdere / Scheissgletscher
 Geisterstein - Halloween
 Le Pénis
-Höll
+
 Chrüzbiger
 
 Mittelpunkt der Schweiz
