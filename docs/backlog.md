@@ -59,6 +59,7 @@ Gnadental
 Glacier de Merdere / Scheissgletscher
 Geisterstein - Halloween
 Le Pénis
+Schmutzli
 
 Chrüzbiger
 
@@ -69,3 +70,7 @@ Nördlicher, Westlicher, Südlicher, Östlicher Punkt etc.
 0-punkt koordinatensystem
 
 Sägitaler see -> kryophil
+
+
+Samichlaus wo bist du zuhause
+https://etheritage.ethz.ch/2018/12/07/lieber-samichlaus-wo-bist-du-zu-haus/ 
