@@ -64,9 +64,12 @@ Chinesische Mauer https://s.geo.admin.ch/jmp5wwh9b3f6
 Nackthof
 Läng Schwanz
 Brüüscht
-
-
+Gross-Schiffli - Titanic
+Stumpe
 Chrüzbiger
+Sinnigi Ritze
+Grossi Vorschess
+Notsvorschis
 
 Mittelpunkt der Schweiz
 tiefester Punkt
