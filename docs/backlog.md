@@ -56,7 +56,6 @@ Ziel
 Wiler vor Holz
 Schlund
 Gnadental
-Glacier de Merdere / Scheissgletscher
 Geisterstein - Halloween
 Le Pénis
 Schmutzli
@@ -70,6 +69,8 @@ Chrüzbiger
 Sinnigi Ritze
 Grossi Vorschess
 Notsvorschis
+Vogeltöti
+Hafeteckel
 
 Mittelpunkt der Schweiz
 tiefester Punkt
