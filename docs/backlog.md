@@ -1,5 +1,3 @@
-Wienacht 
-Samichlauswald
 Hexengraben
 Tubel
 Hackbart
@@ -71,6 +69,7 @@ Grossi Vorschess
 Notsvorschis
 Vogeltöti
 Hafeteckel
+Finstersee
 
 Mittelpunkt der Schweiz
 tiefester Punkt
