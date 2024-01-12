@@ -70,6 +70,11 @@ Notsvorschis
 Vogeltöti
 Hafeteckel
 Finstersee
+gummi
+Gummithal
+Chegel
+Zimmer
+Les Maisons blanches
 
 Mittelpunkt der Schweiz
 tiefester Punkt
