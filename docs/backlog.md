@@ -76,6 +76,8 @@ Zimmer
 Les Maisons blanches
 Dummholz - Baumschule Dummholz
 Jubelei
+Schiena d'Asino - Rückseite des Esels
+Cazzòra - Heilige Scheisse
 
 Mittelpunkt der Schweiz
 tiefester Punkt
