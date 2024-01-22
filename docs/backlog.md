@@ -78,6 +78,8 @@ Dummholz - Baumschule Dummholz
 Jubelei
 Schiena d'Asino - Rückseite des Esels
 Cazzòra - Heilige Scheisse
+Huerehübel
+Huerenplanggen
 
 Mittelpunkt der Schweiz
 tiefester Punkt
