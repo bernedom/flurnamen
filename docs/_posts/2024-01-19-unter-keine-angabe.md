@@ -1,5 +1,5 @@
 ---
-title: "Chinesische Mauer"
+title: "Unter keine Angabe"
 layout: post
 thumbnail: images/unter-keine-angabe.png
 excerpt_separator: <!--more-->
