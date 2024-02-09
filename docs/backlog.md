@@ -80,6 +80,9 @@ Schiena d'Asino - Rückseite des Esels
 Cazzòra - Heilige Scheisse
 Huerehübel
 Huerenplanggen
+Rota Grind
+Stutzhorn
+Nutta, Stugg, Schnitta, Stoss-Stall https://s.geo.admin.ch/svgbkkxywi8b
 
 Mittelpunkt der Schweiz
 tiefester Punkt
