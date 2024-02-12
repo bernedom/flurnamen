@@ -83,6 +83,8 @@ Huerenplanggen
 Rota Grind
 Stutzhorn
 Nutta, Stugg, Schnitta, Stoss-Stall https://s.geo.admin.ch/svgbkkxywi8b
+Stutzberg
+
 
 Mittelpunkt der Schweiz
 tiefester Punkt
