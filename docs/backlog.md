@@ -67,7 +67,6 @@ Sunnigi Ritze
 Grossi Vorschess
 Notsvorschis
 Vogeltöti
-Hafeteckel
 Finstersee
 gummi
 Gummithal
@@ -84,6 +83,7 @@ Rota Grind
 Stutzhorn
 Nutta, Stugg, Schnitta, Stoss-Stall https://s.geo.admin.ch/svgbkkxywi8b
 Stutzberg
+Aula
 
 
 Mittelpunkt der Schweiz
