@@ -65,7 +65,6 @@ Stumpe
 Chrüzbiger
 Sunnigi Ritze
 Grossi Vorschess
-Notsvorschis
 Vogeltöti
 Finstersee
 gummi
