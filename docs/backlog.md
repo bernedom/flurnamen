@@ -18,7 +18,7 @@ Blutwurstmatten
 Erster Gang
 Chlepfhütte
 Weisstannen
-Luegisland
+Hexenkirchli
 Aa bis Zett
 Zorn
 Mörderchöpf
@@ -35,7 +35,6 @@ Fickrüti
 Busen
 Fotzenacker
 Tartar
-Knoblauch
 Chäs
 Tee
 Süesstrunk
@@ -82,7 +81,7 @@ Rota Grind
 Stutzhorn
 Nutta, Stugg, Schnitta, Stoss-Stall https://s.geo.admin.ch/svgbkkxywi8b
 Stutzberg
-Aula
+Schwesterehüsli
 
 
 Mittelpunkt der Schweiz
