@@ -77,13 +77,10 @@ Schiena d'Asino - Rückseite des Esels
 Cazzòra - Heilige Scheisse
 Huerehübel
 Huerenplanggen
-Rota Grind
 Stutzhorn
 Nutta, Stugg, Schnitta, Stoss-Stall https://s.geo.admin.ch/svgbkkxywi8b
 Stutzberg
 Schwesterehüsli
-
-
 Mittelpunkt der Schweiz
 tiefester Punkt
 Höchster Punkt
@@ -92,6 +89,3 @@ Nördlicher, Westlicher, Südlicher, Östlicher Punkt etc.
 
 Sägitaler see -> kryophil
 
-
-Samichlaus wo bist du zuhause
-https://etheritage.ethz.ch/2018/12/07/lieber-samichlaus-wo-bist-du-zu-haus/ 
