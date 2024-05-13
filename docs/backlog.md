@@ -85,6 +85,7 @@ Mittelpunkt der Schweiz
 tiefester Punkt
 Höchster Punkt
 Nördlicher, Westlicher, Südlicher, Östlicher Punkt etc.
+Osterhubel
 0-punkt koordinatensystem
 
 Sägitaler see -> kryophil
