@@ -32,7 +32,6 @@ Schnuderen
 Chnebel
 Bulle - Am ersten Mai trifft man neben Demonstranten in Zürich oft auch 
 Fickrüti
-Busen
 Fotzenacker
 Tartar
 Chäs
