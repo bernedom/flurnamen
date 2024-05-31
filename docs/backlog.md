@@ -72,7 +72,7 @@ Zimmer
 Les Maisons blanches
 Dummholz - Baumschule Dummholz
 Jubelei
-Schiena d'Asino - Rückseite des Esels
+Schiena d'Asino - Rückseite des Esels - Das Glück der Erde liegt auf dem Rücken der Pferde. Eine schönere Aussicht gibts aber auf dem Rücken des Esels. 
 Cazzòra - Heilige Scheisse
 Huerehübel
 Huerenplanggen
@@ -85,6 +85,8 @@ tiefester Punkt
 Höchster Punkt
 Nördlicher, Westlicher, Südlicher, Östlicher Punkt etc.
 Osterhubel
+Muhen
+Sägissen
 0-punkt koordinatensystem
 
 Sägitaler see -> kryophil
