@@ -55,8 +55,6 @@ Gnadental
 Geisterstein - Halloween
 Le Pénis
 Schmutzli
-Chinesische Mauer https://s.geo.admin.ch/jmp5wwh9b3f6 
-Nackthof
 Läng Schwanz
 Brüüscht
 Stumpe
