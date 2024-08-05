@@ -54,7 +54,7 @@ Schlund
 Gnadental
 Geisterstein - Halloween
 Le Pénis
-Schmutzli
+Schmutzli -- Samichalus
 Läng Schwanz
 Brüüscht
 Stumpe
@@ -94,7 +94,6 @@ Eierhals
 in da undere chneu - https://s.geo.admin.ch/nn7k6i6sgltf
 löli
 Rotzberg
-Misthufen
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
