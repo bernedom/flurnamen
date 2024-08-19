@@ -11,7 +11,6 @@ Geiss
 Geiss-Chopf
 Zöpfli
 Zopf
-Weggli
 Lasagn
 Zwibacki
 Blutwurstmatten
@@ -32,7 +31,6 @@ Schnuderen
 Chnebel
 Bulle - Am ersten Mai trifft man neben Demonstranten in Zürich oft auch 
 Fickrüti
-Fotzenacker
 Tartar
 Chäs
 Tee
@@ -94,7 +92,13 @@ Eierhals
 in da undere chneu - https://s.geo.admin.ch/nn7k6i6sgltf
 löli
 Rotzberg
+Gipfli
+Schlimmberg
+Bös
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
 https://landumusig.ch/eine-schweizer-reise-der-besonderen-art/
+
+
+Ein Ausschnitt aus der schweizer Landeskarte auf dem der Flurname Weggliwald zu lesen ist. 
