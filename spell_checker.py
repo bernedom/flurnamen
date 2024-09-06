@@ -9,15 +9,10 @@ def correct_text(text, tool):
     return corrected_text
 
 
-def main():
-    if len(sys.argv) != 2:
-        print("Usage: python spell_checker.py <markdown_file>")
-        sys.exit(1)
-
-    file_path = sys.argv[1]
+def correct_file(filename):
     tool = language_tool_python.LanguageTool('de-CH')
 
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(filename, 'r', encoding='utf-8') as file:
         content = file.read()
 
     # Split content into lines
@@ -36,8 +31,9 @@ def main():
             corrected_lines.append(line)
             continue
 
-        # Exclude hyperlinks and hyperlink labels
-        if re.match(r'\[.*\]\(.*\)', line):
+        # Exclude hyperlinks, hyperlink labels, and commented out lines
+        if re.match(r'\[.*\]\(.*\)', line) or re.match(r'<!--.*-->', line):
+            print(f"Skipping line: {line}")
             corrected_lines.append(line)
             continue
 
@@ -49,8 +45,17 @@ def main():
     corrected_content = '\n'.join(corrected_lines)
 
     # Write corrected content back to the file
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(filename, 'w', encoding='utf-8') as file:
         file.write(corrected_content)
+
+
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: python spell_checker.py <markdown_file>")
+        sys.exit(1)
+
+    file_path = sys.argv[1]
+    correct_file(file_path)
 
 
 if __name__ == "__main__":
