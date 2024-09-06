@@ -1,6 +1,7 @@
 import sys
 import re
 import language_tool_python
+import os
 
 
 def correct_text(text, tool):
@@ -55,7 +56,17 @@ def main():
         sys.exit(1)
 
     file_path = sys.argv[1]
-    correct_file(file_path)
+
+    if os.path.isdir(file_path):
+        for root, dirs, files in os.walk(file_path):
+            for file in files:
+                if file.endswith(".md"):
+                    file_path = os.path.join(root, file)
+                    print(f"Correcting file: {file_path}")
+                    correct_file(file_path)
+    else:
+        correct_file(file_path)
+
 
 
 if __name__ == "__main__":
