@@ -1,5 +1,4 @@
 Hexengraben
-Tubel
 Hackbart
 Gaggi
 Wurst
@@ -103,3 +102,7 @@ https://landumusig.ch/eine-schweizer-reise-der-besonderen-art/
 
 
 Ein Ausschnitt aus der schweizer Landeskarte auf dem der Flurname Weggliwald zu lesen ist. 
+
+spellcheck 
+2023
+ 1,2
