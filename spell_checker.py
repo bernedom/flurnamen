@@ -2,6 +2,7 @@ import sys
 import re
 import language_tool_python
 import os
+import glob
 
 
 def correct_text(text, tool):
@@ -34,7 +35,6 @@ def correct_file(filename):
 
         # Exclude hyperlinks, hyperlink labels, and commented out lines
         if re.match(r'\[.*\]\(.*\)', line) or re.match(r'<!--.*-->', line):
-            print(f"Skipping line: {line}")
             corrected_lines.append(line)
             continue
 
@@ -58,14 +58,15 @@ def main():
     file_path = sys.argv[1]
 
     if os.path.isdir(file_path):
-        for root, dirs, files in os.walk(file_path):
-            for file in files:
-                if file.endswith(".md"):
-                    file_path = os.path.join(root, file)
-                    print(f"Correcting file: {file_path}")
-                    correct_file(file_path)
+        files = glob.glob(os.path.join(file_path, '**/*.md'), recursive=True)
+        for file in files:
+            print(f"Correcting file: {file}")
+            correct_file(file)
     else:
-        correct_file(file_path)
+        files = glob.glob(file_path)
+        for file in files:
+            print(f"Correcting file: {file}")
+            correct_file(file)
 
 
 
