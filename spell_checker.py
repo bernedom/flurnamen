@@ -52,7 +52,7 @@ def correct_file(filename):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python spell_checker.py <markdown_file>")
+        print("Usage: python spell_checker.py <markdown_file>" + str(sys.argv))
         sys.exit(1)
 
     file_path = sys.argv[1]
