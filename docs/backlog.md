@@ -94,7 +94,7 @@ Rotzberg
 Gipfli
 Schlimmberg
 Bös
-Tot Ross
+Pont qui branle - Br[cke die Wackelt
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
