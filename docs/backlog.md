@@ -94,7 +94,7 @@ Rotzberg
 Gipfli
 Schlimmberg
 Bös
-Pont qui branle - Br[cke die Wackelt
+
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
@@ -106,3 +106,4 @@ Ein Ausschnitt aus der schweizer Landeskarte auf dem der Flurname Weggliwald zu 
 spellcheck 
 2023
  1,2
+2024, 9, 8
