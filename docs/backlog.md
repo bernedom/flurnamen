@@ -58,7 +58,6 @@ Stumpe
 Chrüzbiger
 Sunnigi Ritze
 Grossi Vorschess
-Vogeltöti
 Finstersee
 gummi
 Gummithal
@@ -106,4 +105,4 @@ Ein Ausschnitt aus der schweizer Landeskarte auf dem der Flurname Weggliwald zu 
 spellcheck 
 2023
  1,2
-2024, 9, 8
+2024, 9, 8, 7
