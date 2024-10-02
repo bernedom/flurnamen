@@ -1,7 +1,7 @@
 ---
 title: "Bärechlaue"
 layout: post
-thumbnail: images/baerechlaue.png
+thumbnail: images/baerenchlaue.png
 excerpt_separator: <!--more-->
 ---
 
