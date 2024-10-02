@@ -1,7 +1,7 @@
 ---
 title: "Schuelmeisters Tandli"
 layout: post
-thumbnail: images/regierig.png
+thumbnail: images/schuelmeisters-tandli.png
 excerpt_separator: <!--more-->
 ---
 

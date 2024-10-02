@@ -1,7 +1,7 @@
 ---
 title: "Verbnotnigs Moos"
 layout: post
-thumbnail: images/verbottnigs-moos.png
+thumbnail: images/verbotnigs-moos.png
 excerpt_separator: <!--more-->
 ---
 
