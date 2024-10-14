@@ -95,6 +95,8 @@ Schlimmberg
 Bös
 Uf de chessle
 Brotvorschess
+Bim Hirt
+Säuli
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
