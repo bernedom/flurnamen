@@ -18,6 +18,10 @@ def parse_markdown(file_path):
     thumbnail_match = re.search(r'thumbnail:\s*(\S+)', front_matter_content)
     thumbnail = thumbnail_match.group(1) if thumbnail_match else ""
 
+    # Extract title from front matter
+    title_match = re.search(r'title:\s*(.+)', front_matter_content)
+    title = title_match.group(1) if title_match else ""
+
     # Remove comments
     content = re.sub(r'<!--.*?-->', '', content, flags=re.DOTALL)
 
@@ -35,16 +39,21 @@ def parse_markdown(file_path):
     
     remaining_content = '\n\n'.join(paragraphs[1:])
 
-    return first_paragraph, link_url, remaining_content, thumbnail
+    return first_paragraph, link_url, remaining_content, thumbnail, title
 
 def create_mastodon_post(file_path):
-    first_paragraph, link_url, remaining_content, thumbnail = parse_markdown(file_path)
+    first_paragraph, link_url, remaining_content, thumbnail, title = parse_markdown(
+        file_path)
 
     post = f"{first_paragraph}\n\n{link_url}\n\n{remaining_content}"
     print("Mastodon Post:")
     print(post)
     if thumbnail:
         print(f"Thumbnail: {thumbnail}")
+
+    if title:
+        print(f"Alt Text: Ausschnitt aus Swisstopo, der den Flurnamen {
+              title} zeigt.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create a Mastodon post from a Markdown file.")
