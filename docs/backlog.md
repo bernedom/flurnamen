@@ -94,6 +94,13 @@ Uf de chessle
 Brotvorschess
 Bim Hirt
 Säuli
+Rund Eggen - Widerspruch
+Tüfels-Chilchli 
+Tanzplatz
+Unter dem Stock
+Höch Pfaffen
+Brätt
+chli Törli
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
