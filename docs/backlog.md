@@ -18,15 +18,12 @@ Chlepfhütte
 Weisstannen
 Hexenkirchli
 Aa bis Zett
-Zorn
 Mörderchöpf
 Hübschböden
 Underem Heinz
 Schnapsgrotzen
-Froschgüllen
 Zipfel
 Schatz
-Schnuderen
 Chnebel
 Bulle - Am ersten Mai trifft man neben Demonstranten in Zürich oft auch 
 Fickrüti
