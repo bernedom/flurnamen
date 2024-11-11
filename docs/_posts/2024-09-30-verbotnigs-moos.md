@@ -1,5 +1,5 @@
 ---
-title: "Verbnotnigs Moos"
+title: "Verbotnigs Moos"
 layout: post
 thumbnail: images/verbotnigs-moos.png
 excerpt_separator: <!--more-->
