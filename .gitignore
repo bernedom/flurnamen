@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 .sass-cache
 flurnamen_clientcred.secret
+flurnamen_usercred.secret

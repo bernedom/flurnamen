@@ -1,4 +1,5 @@
 import argparse
+import getpass
 import re
 import os
 import mastodon
@@ -59,7 +60,13 @@ def create_mastodon_post(file_path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create a Mastodon post from a Markdown file.")
     parser.add_argument("--register-app", action="store_true", help="Register the Mastodon app")
-    parser.add_argument("file_path", nargs='?', help="Path to the Markdown file (required unless --register-app is set)")
+    parser.add_argument("--login", action="store_true", help="Log in to Mastodon")
+    parser.add_argument("file_path", nargs='?', help="Path to the Markdown file (required unless --register-app or --login is set)")
+
+    args = parser.parse_args()
+
+    if not args.register_app and not args.login and not args.file_path:
+        parser.error("the following arguments are required: file_path")
     args = parser.parse_args()
 
     if args.register_app:
@@ -70,6 +77,21 @@ if __name__ == "__main__":
             to_file='flurnamen_clientcred.secret'
         )
         print("App registered successfully.")
+    elif args.login:
+        username = input("Enter your Mastodon username: ")
+        password = getpass.getpass("Enter your Mastodon password: ")
+
+        mastodon_instance = mastodon.Mastodon(
+            client_id='flurnamen_clientcred.secret',
+            api_base_url='https://tooting.ch'
+        )
+
+        mastodon_instance.log_in(
+            username,
+            password,
+            to_file='flurnamen_usercred.secret'
+        )
+        print("Logged in successfully.")
     elif os.path.exists(args.file_path):
         create_mastodon_post(args.file_path)
     else:
