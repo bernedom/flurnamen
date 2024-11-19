@@ -1,6 +1,7 @@
 import argparse
 import re
 import os
+import mastodon
 
 def parse_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -57,10 +58,19 @@ def create_mastodon_post(file_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create a Mastodon post from a Markdown file.")
-    parser.add_argument("file_path", help="Path to the Markdown file")
+    parser.add_argument("--register-app", action="store_true", help="Register the Mastodon app")
+    parser.add_argument("file_path", nargs='?', help="Path to the Markdown file (required unless --register-app is set)")
     args = parser.parse_args()
 
-    if os.path.exists(args.file_path):
+    if args.register_app:
+        # Register the Mastodon app
+        mastodon.Mastodon.create_app(
+            'flurnamen_client',
+            api_base_url='https://tooting.ch',
+            to_file='flurnamen_clientcred.secret'
+        )
+        print("App registered successfully.")
+    elif os.path.exists(args.file_path):
         create_mastodon_post(args.file_path)
     else:
         print(f"File {args.file_path} does not exist.")
