@@ -101,14 +101,12 @@ chli Törli
 Gross Tisch
 Bim scharfe Egge
 Scharfestei
-Au Chili
+Au Chili - Essen im... häts au Chili
+Rosenkranz
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
 https://landumusig.ch/eine-schweizer-reise-der-besonderen-art/
-
-
-Ein Ausschnitt aus der schweizer Landeskarte auf dem der Flurname Weggliwald zu lesen ist. 
 
 spellcheck 
 2023
