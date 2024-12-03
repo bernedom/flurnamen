@@ -40,7 +40,6 @@ Pool
 Libanon
 turin
 Prag
-Moskau
 Ziel
 Wiler vor Holz
 Schlund
