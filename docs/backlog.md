@@ -100,7 +100,6 @@ chli Törli
 Gross Tisch
 Bim scharfe Egge
 Scharfestei
-Au Chili - Essen im... häts au Chili
 Rosenkranz
 
 Sägitaler see -> kryophil
