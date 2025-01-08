@@ -44,9 +44,6 @@ Ziel
 Wiler vor Holz
 Schlund
 Gnadental
-Geisterstein - Halloween
-Le Pénis
-Schmutzli -- Samichalus
 Läng Schwanz
 Brüüscht
 Stumpe
@@ -69,7 +66,7 @@ Stutzhorn
 Nutta, Stugg, Schnitta, Stoss-Stall https://s.geo.admin.ch/svgbkkxywi8b
 Stutzberg
 Schwesterehüsli
-Mittelpunkt der Schweiz
+Mittelpunkt der Schweiz - Jareshälfte
 tiefester Punkt
 Höchster Punkt
 Nördlicher, Westlicher, Südlicher, Östlicher Punkt etc.
@@ -105,6 +102,8 @@ Chläber
 Tintenacker
 Königriich
 Schneckenberg
+Unghür
+Nass Stei
 
 
 Sägitaler see -> kryophil
