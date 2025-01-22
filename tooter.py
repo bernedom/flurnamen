@@ -96,12 +96,24 @@ if __name__ == "__main__":
     parser.add_argument("--login", action="store_true", help="Log in to Mastodon")
     parser.add_argument("file_path", nargs='?', help="Path to the Markdown file (required unless --register-app or --login is set)")
     parser.add_argument("--create", action="store_true", help="Create a new stub for a post")
+    parser.add_argument("--flurname", help="Flurname for the new stub")
+    parser.add_argument("--url", help="URL for the new stub")
 
     args = parser.parse_args()
 
-    if not args.register_app and not args.login and not args.file_path:
+    if not args.register_app and not args.login and not args.file_path and not args.create:
         parser.error("the following arguments are required: file_path")
-    args = parser.parse_args()
+    
+    if args.create:
+        if not args.flurname:
+            parser.error("the following arguments are required: flurname")
+            
+        url = "https://draeckgaden.ch"
+        if args.url:
+            url = args.url
+        create_stub(args.flurname, url)
+        exit()
+        
 
     if args.register_app:
         # Register the Mastodon app
