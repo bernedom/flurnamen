@@ -3,6 +3,7 @@ import getpass
 import re
 import os
 import mastodon
+import datetime
 
 def parse_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -43,6 +44,38 @@ def parse_markdown(file_path):
 
     return first_paragraph, link_url, remaining_content, thumbnail, title
 
+def create_stub(flurname, url, folder='./docs/_posts'):
+
+    # Ensure the folder exists
+    os.makedirs(folder, exist_ok=True)
+
+    # Create a filename based on the current date and flurname
+    date_str = datetime.datetime.now().strftime('%Y-%m-%d')
+    filename = f"{date_str}-{flurname}.md"
+    file_path = os.path.join(folder, filename)
+
+    # Create the content for the stub
+    content = f"""---
+title: "{flurname}"
+layout: post
+thumbnail: images/{flurname.lower()}.png
+excerpt_separator: <!--more-->
+---
+
+Lorem Ipsum [{flurname}]({url}).
+
+Bla Ba
+
+<!--more-->
+"""
+
+    # Write the content to the file
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(content)
+
+    print(f"Stub created at {file_path}")
+
+
 def create_mastodon_post(file_path):
     first_paragraph, link_url, remaining_content, thumbnail, title = parse_markdown(
         file_path)
@@ -62,6 +95,7 @@ if __name__ == "__main__":
     parser.add_argument("--register-app", action="store_true", help="Register the Mastodon app")
     parser.add_argument("--login", action="store_true", help="Log in to Mastodon")
     parser.add_argument("file_path", nargs='?', help="Path to the Markdown file (required unless --register-app or --login is set)")
+    parser.add_argument("--create", action="store_true", help="Create a new stub for a post")
 
     args = parser.parse_args()
 
