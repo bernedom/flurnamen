@@ -112,10 +112,8 @@ if __name__ == "__main__":
         if args.url:
             url = args.url
         create_stub(args.flurname, url)
-        exit()
-        
 
-    if args.register_app:
+    elif args.register_app:
         # Register the Mastodon app
         mastodon.Mastodon.create_app(
             'flurnamen_client',
