@@ -49,16 +49,19 @@ def create_stub(flurname, url, folder='./docs/_posts'):
     # Ensure the folder exists
     os.makedirs(folder, exist_ok=True)
 
+    # Replace spaces with dashes in flurname
+    flurname_slug = flurname.replace(' ', '-').lower()
+
     # Create a filename based on the current date and flurname
     date_str = datetime.datetime.now().strftime('%Y-%m-%d')
-    filename = f"{date_str}-{flurname}.md"
+    filename = f"{date_str}-{flurname_slug}.md"
     file_path = os.path.join(folder, filename)
 
     # Create the content for the stub
     content = f"""---
 title: "{flurname}"
 layout: post
-thumbnail: images/{flurname.lower()}.png
+thumbnail: images/{flurname_slug}.png
 excerpt_separator: <!--more-->
 ---
 
