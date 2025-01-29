@@ -58,7 +58,6 @@ Zimmer
 Les Maisons blanches
 Dummholz - Baumschule Dummholz
 Jubelei
-Schiena d'Asino - Rückseite des Esels - Das Glück der Erde liegt auf dem Rücken der Pferde. Eine schönere Aussicht gibts aber auf dem Rücken des Esels. 
 Cazzòra - Heilige Scheisse
 Huerehübel
 Huerenplanggen
@@ -79,7 +78,6 @@ Im bschissnen Graben
 Lattenwald
 Eierhals
 in da undere chneu - https://s.geo.admin.ch/nn7k6i6sgltf
-löli
 Rotzberg
 Gipfli
 Schlimmberg
