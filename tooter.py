@@ -89,9 +89,13 @@ def create_mastodon_post(file_path):
     if thumbnail:
         print(f"Thumbnail: {thumbnail}")
 
+    alt_text = f"Ausschnitt aus Swisstopo, der den Flurnamen {title} zeigt."
     if title:
         print(f"Alt Text: Ausschnitt aus Swisstopo, der den Flurnamen {
               title} zeigt.")
+        
+    return (post, thumbnail, alt_text)
+        
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create a Mastodon post from a Markdown file.")
@@ -101,6 +105,7 @@ if __name__ == "__main__":
     parser.add_argument("--create", action="store_true", help="Create a new stub for a post")
     parser.add_argument("--flurname", help="Flurname for the new stub")
     parser.add_argument("--url", help="URL for the new stub")
+    parser.add_argument("--post", action="store_true", help="if set the post will be posted to mastodon")
 
     args = parser.parse_args()
 
@@ -140,6 +145,18 @@ if __name__ == "__main__":
         )
         print("Logged in successfully.")
     elif os.path.exists(args.file_path):
-        create_mastodon_post(args.file_path)
+        (post, thumbnail, alt) = create_mastodon_post(args.file_path)
+        if args.post:
+            mastodon_instance = mastodon.Mastodon(
+                client_id='flurnamen_clientcred.secret',
+                access_token='flurnamen_usercred.secret',
+                api_base_url='https://tooting.ch'
+            )
+        thumbnail_path = os.path.join('docs', thumbnail)
+        print("Posting image to mastodon")
+        media = mastodon_instance.media_post(thumbnail_path, description=alt)
+        print("Posting text to mastodon")
+        mastodon_instance.status_post(post, media_ids=media)
+            
     else:
         print(f"File {args.file_path} does not exist.")
