@@ -152,11 +152,11 @@ if __name__ == "__main__":
                 access_token='flurnamen_usercred.secret',
                 api_base_url='https://tooting.ch'
             )
-        thumbnail_path = os.path.join('docs', thumbnail)
-        print("Posting image to mastodon")
-        media = mastodon_instance.media_post(thumbnail_path, description=alt)
-        print("Posting text to mastodon")
-        mastodon_instance.status_post(post, media_ids=media)
+            thumbnail_path = os.path.join('docs', thumbnail)
+            print("Posting image to mastodon")
+            media = mastodon_instance.media_post(thumbnail_path, description=alt)
+            print("Posting text to mastodon")
+            mastodon_instance.status_post(post, media_ids=media)
             
     else:
         print(f"File {args.file_path} does not exist.")
