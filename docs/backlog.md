@@ -56,7 +56,6 @@ Gummithal
 Chegel
 Zimmer
 Les Maisons blanches
-Dummholz - Baumschule Dummholz
 Jubelei
 Cazzòra - Heilige Scheisse
 Huerehübel
@@ -104,6 +103,7 @@ Unghür
 Nass Stei
 in de Butzchammera
 Chlapf
+Bienenflug - Im frühling erwacht alles und wir verfolgen den 
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
