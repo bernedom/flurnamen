@@ -85,7 +85,6 @@ Uf de chessle
 Brotvorschess
 Bim Hirt
 Säuli
-Rund Eggen - Widerspruch
 Tanzplatz
 Unter dem Stock
 Höch Pfaffen
@@ -106,6 +105,8 @@ Chlapf
 Bienenflug - Im frühling erwacht alles und wir verfolgen den
 Figürli 
 Hinter Chessel
+Rattenschwanz
+Rossgletti - Bei rümpfen im Ross
 
 
 Sägitaler see -> kryophil
