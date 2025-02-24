@@ -50,7 +50,9 @@ def create_stub(flurname, url, folder='./docs/_posts'):
     os.makedirs(folder, exist_ok=True)
 
     # Replace spaces with dashes in flurname
+    
     flurname_slug = flurname.replace(' ', '-').lower()
+    flurname_slug = flurname_slug.replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss')
 
     # Create a filename based on the current date and flurname
     date_str = datetime.datetime.now().strftime('%Y-%m-%d')
