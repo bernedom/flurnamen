@@ -100,7 +100,6 @@ Königriich
 Schneckenberg
 Unghür
 Nass Stei
-in de Butzchammera
 Chlapf
 Bienenflug - Im frühling erwacht alles und wir verfolgen den
 Figürli 
