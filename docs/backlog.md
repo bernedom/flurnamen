@@ -90,7 +90,6 @@ Unter dem Stock
 Höch Pfaffen
 Brätt
 chli Törli
-Gross Tisch
 Bim scharfe Egge
 Scharfestei
 Rosenkranz
@@ -110,6 +109,10 @@ Waldnacht
 Chräien
 Vorder / Hinder Tiergarten
 Mälchsetzi
+Fickter
+Scheff Schiffberg - Der Vorsitzende der Wildpinklervereinigung auf dem Seichberg hat offiziell den Amtstitel
+Schefflch - Eine Mischung aus Scheff und Arschloch ist das...
+bei den seelenen - Bei den seelen allerseelen oder so
 
 
 Sägitaler see -> kryophil
