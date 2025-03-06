@@ -111,7 +111,7 @@ Vorder / Hinder Tiergarten
 Mälchsetzi
 Fickter
 Scheff Schiffberg - Der Vorsitzende der Wildpinklervereinigung auf dem Seichberg hat offiziell den Amtstitel
-Schefflch - Eine Mischung aus Scheff und Arschloch ist das...
+Scheffloch - Eine Mischung aus Scheff und Arschloch ist das...
 bei den seelenen - Bei den seelen allerseelen oder so
 
 
