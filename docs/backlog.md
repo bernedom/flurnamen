@@ -113,6 +113,7 @@ Fickter
 Scheff Schiffberg - Der Vorsitzende der Wildpinklervereinigung auf dem Seichberg hat offiziell den Amtstitel
 Scheffloch - Eine Mischung aus Scheff und Arschloch ist das...
 bei den seelenen - Bei den seelen allerseelen oder so
+Chatzestriegel - KAtze reinigen
 
 
 Sägitaler see -> kryophil
