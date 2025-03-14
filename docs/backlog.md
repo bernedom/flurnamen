@@ -114,7 +114,13 @@ Scheff Schiffberg - Der Vorsitzende der Wildpinklervereinigung auf dem Seichberg
 Scheffloch - Eine Mischung aus Scheff und Arschloch ist das...
 bei den seelenen - Bei den seelen allerseelen oder so
 Chatzestriegel - KAtze reinigen
-
+Chüngeler 
+Chüngeliinsel
+Dreichüngelwald
+Chüngellochwald
+NAse
+Elefantenstein
+Schlangengruebe
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
