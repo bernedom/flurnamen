@@ -123,6 +123,15 @@ Schlangengruebe
 Scheisselhaldiwald
 Ankacker
 Tubakackaer
+Bibelifrässer
+Fäschtwise
+Festig
+Buebheini
+Chübel
+Chnödli
+Chnochestampfi
+Schatten
+tön
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
