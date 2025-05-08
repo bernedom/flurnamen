@@ -100,7 +100,6 @@ Schneckenberg
 Unghür
 Nass Stei
 Chlapf
-Bienenflug - Im frühling erwacht alles und wir verfolgen den
 Figürli 
 Hinter Chessel
 Waldnacht
@@ -130,6 +129,10 @@ Chnödli
 Chnochestampfi
 Schatten
 tön
+ufem chind
+chindergartenwäldli
+Bösiklass
+Chuchichaschte https://s.geo.admin.ch/ustusksqyo14
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
