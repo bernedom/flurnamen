@@ -132,11 +132,13 @@ tön
 ufem chind
 chindergartenwäldli
 Bösiklass
-Chuchichaschte https://s.geo.admin.ch/ustusksqyo14
+bartschiisser
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
 https://landumusig.ch/eine-schweizer-reise-der-besonderen-art/
 https://www.ortsnamen.ch/Texte/Vallesia_2012_11_Werlen.pdf
+https://www.giswiki.ch/Kuriose_Lokalnamen 
+https://www.tagesanzeiger.ch/zuerich-kuriose-ortsnamen-wie-speck-new-york-und-himmelreich-480132553848 
 
 check 500 char limit
