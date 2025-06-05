@@ -98,7 +98,6 @@ Tintenacker
 Königriich
 Schneckenberg
 Unghür
-Nass Stei
 Chlapf
 Figürli 
 Hinter Chessel
