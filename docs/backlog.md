@@ -135,6 +135,10 @@ bartschiisser
 Wildi Frau
 Busental
 Busenbrand
+Felse
+Chläbhalde
+wuestzopf
+Güggeliberg - Chicken wings a discretion
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
