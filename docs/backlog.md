@@ -129,7 +129,6 @@ Chnochestampfi
 Schatten
 tön
 ufem chind
-chindergartenwäldli
 Bösiklass
 bartschiisser
 Wildi Frau
