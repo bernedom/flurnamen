@@ -160,7 +160,8 @@ if __name__ == "__main__":
                 print("Posting image to mastodon")
                 media = mastodon_instance.media_post(thumbnail_path, description=alt)
                 print("Posting text to mastodon")
-                mastodon_instance.status_post(post, media_ids=media)
+                status = mastodon_instance.status_post(post, media_ids=media)
+                print(f"Post created successfully: {status.url} ({status.id})")
             
     else:
         print(f"File {args.file_path} does not exist.")
