@@ -83,7 +83,7 @@ Bla Ba
     print(f"Stub created at {file_path}")
     return flurname
 
-def copy_screenshot(flurname, screenshotfolder=os.path.expanduser('~/Pictures/Screenshots'), targetfolder='./docs/_posts/images'):
+def copy_screenshot(flurname, screenshotfolder=os.path.expanduser('~/Pictures/Screenshots'), targetfolder='./docs/images'):
     # Ensure the target folder exists
     os.makedirs(targetfolder, exist_ok=True)
 
