@@ -4,6 +4,8 @@ import re
 import os
 import mastodon
 import datetime
+import shutil
+from glob import glob
 
 def parse_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -79,6 +81,27 @@ Bla Ba
         file.write(content)
 
     print(f"Stub created at {file_path}")
+    return flurname
+
+def copy_screenshot(flurname, screenshotfolder=os.path.expanduser('~/Pictures/Screenshots'), targetfolder='./docs/_posts/images'):
+    # Ensure the target folder exists
+    os.makedirs(targetfolder, exist_ok=True)
+
+    # Get today's date in the screenshot format
+    date_str = datetime.datetime.now().strftime('%Y-%m-%d')
+    pattern = os.path.join(screenshotfolder, f"Screenshot from {date_str} *.png")
+    screenshots = glob(pattern)
+
+    if not screenshots:
+        print(f"No screenshot found for today ({date_str}) in {screenshotfolder}")
+        return None
+
+    # Use the most recent screenshot if multiple found
+    latest_screenshot = max(screenshots, key=os.path.getctime)
+    target_path = os.path.join(targetfolder, f"{flurname.replace(' ', '-').lower()}.png")
+    shutil.copy2(latest_screenshot, target_path)
+    print(f"Copied screenshot to {target_path}")
+    return target_path
 
 
 def create_mastodon_post(file_path):
@@ -118,7 +141,8 @@ if __name__ == "__main__":
         url = "https://draeckgaden.ch"
         if args.url:
             url = args.url
-        create_stub(args.create, url)
+        flurname = create_stub(args.create, url)
+        copy_screenshot(flurname)
 
     elif args.register_app:
         # Register the Mastodon app
