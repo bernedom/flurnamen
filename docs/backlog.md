@@ -31,7 +31,6 @@ Tartar
 Chäs
 Tee
 Süesstrunk
-Kamel
 Schnegg
 Nussloch
 Pfeifensack
@@ -62,7 +61,6 @@ Huerehübel
 Huerenplanggen
 Stutzhorn
 Nutta, Stugg, Schnitta, Stoss-Stall https://s.geo.admin.ch/svgbkkxywi8b
-Stutzberg
 Schwesterehüsli
 Mittelpunkt der Schweiz - Jareshälfte
 tiefester Punkt
@@ -95,7 +93,6 @@ Scharfestei
 Rosenkranz
 Chläber
 Tintenacker
-Königriich
 Schneckenberg
 Unghür
 Chlapf
@@ -140,6 +137,7 @@ wuestzopf
 sunnesita 
 schattenseite
 bränholz
+Widdersgrind - MAnche Leute bezeichnet man eher als Schafseckel, besonders Sturen personen darf man abber auch
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
