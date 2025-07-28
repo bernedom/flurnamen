@@ -125,7 +125,7 @@ Chnochestampfi
 Schatten
 tön
 ufem chind
-Bösiklass
+Bösiklass - Schulanfang
 bartschiisser
 Wildi Frau
 Busental
