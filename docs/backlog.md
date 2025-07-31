@@ -109,7 +109,6 @@ Chatzestriegel - KAtze reinigen
 Chüngeler 
 Chüngeliinsel
 Dreichüngelwald
-Chüngellochwald
 Elefantenstein
 Schlangengruebe
 Scheisselhaldiwald
