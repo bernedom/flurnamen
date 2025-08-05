@@ -25,7 +25,7 @@ Schnapsgrotzen
 Zipfel
 Schatz
 Chnebel
-Bulle - Am ersten Mai trifft man neben Demonstranten in Zürich oft auch 
+Bulle - Am ersten Mai trifft man neben Demonstranten in Zürich oft pych 
 Fickrüti
 Tartar
 Chäs
