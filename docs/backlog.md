@@ -139,6 +139,8 @@ Widdersgrind - MAnche Leute bezeichnet man eher als Schafseckel, besonders Sture
 im lätze hängst - rächt hängst - Beim zureigen der Pferde muss man aufpasen, dass man den rächt Hengst erwischt. Reitet man auf dem lätze Hengst wirds ungemütlich... 
 Riesenweid
 goldgruoben
+Schwefel
+Schwefelbergbad
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
