@@ -141,6 +141,8 @@ Riesenweid
 goldgruoben
 Schwefel
 Schwefelbergbad
+Bim Tram
+Bös
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
