@@ -1,5 +1,4 @@
 import argparse
-import getpass
 import re
 import os
 import mastodon
