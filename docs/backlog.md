@@ -78,7 +78,6 @@ in da undere chneu - https://s.geo.admin.ch/nn7k6i6sgltf
 Rotzberg
 Gipfli
 Schlimmberg
-Bös
 Uf de chessle
 Brotvorschess
 Bim Hirt
@@ -124,7 +123,6 @@ Chnochestampfi
 Schatten
 tön
 ufem chind
-Bösiklass - Schulanfang
 bartschiisser
 Wildi Frau
 Busental
@@ -143,6 +141,8 @@ Schwefel
 Schwefelbergbad
 Bim Tram
 Bös
+Hosenruck
+Lederhosen - Oktoberfest
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
