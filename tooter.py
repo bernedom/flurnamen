@@ -153,17 +153,16 @@ if __name__ == "__main__":
         )
         print("App registered successfully.")
     elif args.login:
-        username = input("Enter your Mastodon username: ")
-        password = getpass.getpass("Enter your Mastodon password: ")
-
+        
         mastodon_instance = mastodon.Mastodon(
             client_id='flurnamen_clientcred.secret',
             api_base_url='https://tooting.ch'
         )
+        
+        print(mastodon_instance.auth_request_url())
 
         mastodon_instance.log_in(
-            username,
-            password,
+            code = input("Enter the code from the URL: "),
             to_file='flurnamen_usercred.secret'
         )
         print("Logged in successfully.")
