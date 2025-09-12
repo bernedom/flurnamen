@@ -141,7 +141,6 @@ Schwefel
 Schwefelbergbad
 Bim Tram
 Bös - Schwingfest
-Schnurre
 Lederhosen - Oktoberfest
 Malzeche - Ab und zu mal zeche
 Wursthüsli
