@@ -141,7 +141,6 @@ Schwefel
 Schwefelbergbad
 Bim Tram
 Bös - Schwingfest
-Lederhosen - Oktoberfest
 Malzeche - Ab und zu mal zeche
 Wursthüsli
 Wurstbrunnen
@@ -152,6 +151,10 @@ Botanisch
 Langi Längenen
 Biblioteca
 Lederhosenacker
+Gotterbarm
+Gottlieben
+Flädermus
+wolfgalgen
 
 
 Sägitaler see -> kryophil
