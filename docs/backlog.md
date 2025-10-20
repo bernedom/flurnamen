@@ -143,18 +143,16 @@ Bim Tram
 Bös - Schwingfest
 Malzeche - Ab und zu mal zeche
 Wursthüsli
-Wurstbrunnen
 Zwäergliloch
 Chrotteloch
 Munimatt
 Botanisch
 Langi Längenen
-Biblioteca
-Lederhosenacker
 Gotterbarm
 Gottlieben
 Flädermus
 wolfgalgen
+stingglöcher
 
 
 Sägitaler see -> kryophil
