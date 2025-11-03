@@ -112,8 +112,7 @@ Elefantenstein
 Schlangengruebe
 Scheisselhaldiwald
 Ankacker
-Tubakackaer
-Bibelifrässer
+Tubakackaer - Guggenmusik am 11. 11. - Die Fasnacht beginnt, mit dabei die Blechblasgugge "Tubakacker"
 Fäschtwise
 Festig
 Buebheini
@@ -153,6 +152,7 @@ Gottlieben
 Flädermus
 wolfgalgen
 stingglöcher
+Hangsackgrat
 
 
 Sägitaler see -> kryophil
