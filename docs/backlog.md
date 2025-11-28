@@ -123,7 +123,6 @@ Schatten
 tön
 ufem chind
 bartschiisser
-Wildi Frau
 Busental
 Busenbrand
 Felse
@@ -132,7 +131,6 @@ wuestzopf
 sunnesita 
 schattenseite
 bränholz
-Widdersgrind - MAnche Leute bezeichnet man eher als Schafseckel, besonders Sturen personen darf man abber auch
 im lätze hängst - rächt hängst - Beim zureigen der Pferde muss man aufpasen, dass man den rächt Hengst erwischt. Reitet man auf dem lätze Hengst wirds ungemütlich... 
 goldgruoben
 Schwefel
@@ -145,7 +143,7 @@ Zwäergliloch
 Chrotteloch
 Munimatt
 Botanisch
-Langi Längenen
+
 Gotterbarm
 Gottlieben
 Flädermus
@@ -154,6 +152,7 @@ stingglöcher
 Hangsackgrat
 Botanisch
 Mittlere Länge
+Schwarz Chöpf
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
