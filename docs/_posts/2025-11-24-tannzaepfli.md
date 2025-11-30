@@ -1,3 +1,9 @@
+---
+title: "Tannzäpfli"
+layout: post
+thumbnail: images/tannzaepfli.png
+excerpt_separator: <!--more-->
+---
 
 Für einen schönen Adventskranz brauchts nicht viel: Vier Kerzen, etwas Reisig und zur Deko ein paar [Tannzäpfli](https://s.geo.admin.ch/epu45te9utdb).
 
