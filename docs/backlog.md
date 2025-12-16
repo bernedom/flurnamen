@@ -142,8 +142,8 @@ Wursthüsli
 Zwäergliloch
 Chrotteloch
 Munimatt
-Botanisch
-
+Trommelplatz
+Mälche
 Gotterbarm
 Gottlieben
 Flädermus
@@ -153,6 +153,7 @@ Hangsackgrat
 Botanisch
 Mittlere Länge
 Schwarz Chöpf
+Wiehnacht-Tobel
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
