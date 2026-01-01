@@ -129,6 +129,7 @@ if __name__ == "__main__":
     parser.add_argument("--create", help="Create a new stub for a post pass the flurname")
     parser.add_argument("--url", help="URL for the new stub")
     parser.add_argument("--post", action="store_true", help="if set the post will be posted to mastodon")
+    parser.add_argument("--story", action="store_true", help="Create a story post instead of a regular post")
 
     args = parser.parse_args()
 
@@ -167,23 +168,26 @@ if __name__ == "__main__":
         print("Logged in successfully.")
     elif os.path.exists(args.file_path):
         (post, thumbnail, alt) = create_mastodon_post(args.file_path)
-        if len(post) > 500:
-            print(f"Warning: Post exceeds 500 characters ({len(post)} characters) and will not be posted to Mastodon.")
-            
-        else:
-            if args.post:
-                mastodon_instance = mastodon.Mastodon(
-                    client_id='flurnamen_clientcred.secret',
-                    access_token='flurnamen_usercred.secret',
-                    api_base_url='https://tooting.ch'
-                )
+        thumbnail_path = os.path.join('docs', thumbnail)
+        mastodon_instance = mastodon.Mastodon(
+            client_id='flurnamen_clientcred.secret',
+            access_token='flurnamen_usercred.secret',
+            api_base_url='https://tooting.ch'
+        )
+
+        if args.post:
+            if len(post) > 500:
+                print(f"Warning: Post exceeds 500 characters ({len(post)} characters) and will not be posted to Mastodon.")
+            else:
                 
-                thumbnail_path = os.path.join('docs', thumbnail)
                 print("Posting image to mastodon")
                 media = mastodon_instance.media_post(thumbnail_path, description=alt)
                 print("Posting text to mastodon")
                 status = mastodon_instance.status_post(post, media_ids=media)
                 print(f"Post created successfully: {status.url} ({status.id})")
+        elif args.story:
+            print("Creating story post (not implemented in Mastodon.py)")
+            
             
     else:
         print(f"File {args.file_path} does not exist.")
