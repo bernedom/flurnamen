@@ -41,9 +41,7 @@ def parse_markdown(file_path):
     else:
         link_url = ""
     
-    remaining_content = '\n\n'.join(paragraphs[1:])
-
-    return first_paragraph, link_url, remaining_content, thumbnail, title
+    return first_paragraph, link_url, paragraphs, thumbnail, title
 
 def create_stub(flurname, url, folder='./docs/_posts'):
 
@@ -104,9 +102,10 @@ def copy_screenshot(flurname, screenshotfolder=os.path.expanduser('~/Pictures/Sc
 
 
 def create_mastodon_post(file_path):
-    first_paragraph, link_url, remaining_content, thumbnail, title = parse_markdown(
+    first_paragraph, link_url, paragraphs, thumbnail, title = parse_markdown(
         file_path)
 
+    remaining_content = '\n\n'.join(paragraphs[1:])
     post = f"{first_paragraph}\n\n{link_url}\n\n{remaining_content}"
     print("Mastodon Post:")
     print(post)
@@ -119,7 +118,24 @@ def create_mastodon_post(file_path):
               title} zeigt.")
         
     return (post, thumbnail, alt_text)
+
+def create_mastodon_story(file_path):
+    first_paragraph, link_url, remaining_content, thumbnail, title = parse_markdown(
+        file_path)
+
+    story = f"{first_paragraph}\n\n{link_url}\n\n{remaining_content}"
+    print("Mastodon Story:")
+    print(remaining_content)
+    if thumbnail:
+        print(f"Thumbnail: {thumbnail}")
+
+    alt_text = f"Ausschnitt aus Swisstopo, der den Flurnamen {title} zeigt."
+    if title:
+        print(f"Alt Text: Ausschnitt aus Swisstopo, der den Flurnamen {
+              title} zeigt.")
         
+        
+    return (story, thumbnail, alt_text)        
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create a Mastodon post from a Markdown file.")
@@ -186,8 +202,9 @@ if __name__ == "__main__":
                 status = mastodon_instance.status_post(post, media_ids=media)
                 print(f"Post created successfully: {status.url} ({status.id})")
         elif args.story:
-            print("Creating story post (not implemented in Mastodon.py)")
+            (story, thumbnail, alt) = create_mastodon_story(args.file_path)
             
+
             
     else:
         print(f"File {args.file_path} does not exist.")
