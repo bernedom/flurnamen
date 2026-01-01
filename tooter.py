@@ -6,6 +6,17 @@ import datetime
 import shutil
 from glob import glob
 
+def replace_links_with_ellipsis(text):
+    link_match = re.search(r'\[(.*?)\]\((.*?)\)', text)
+    if link_match:
+        link_text = link_match.group(1)
+        link_url = link_match.group(2)
+        text = text.replace(f'[{link_text}]({link_url})', '...')
+    else:
+        link_url = ""
+
+    return text, link_url
+
 def parse_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
@@ -31,17 +42,8 @@ def parse_markdown(file_path):
 
     # Extract paragraphs and link
     paragraphs = content.split('\n\n')
-    first_paragraph = paragraphs[0]
-    link_match = re.search(r'\[(.*?)\]\((.*?)\)', first_paragraph)
     
-    if link_match:
-        link_text = link_match.group(1)
-        link_url = link_match.group(2)
-        first_paragraph = first_paragraph.replace(f'[{link_text}]({link_url})', '...')
-    else:
-        link_url = ""
-    
-    return first_paragraph, link_url, paragraphs, thumbnail, title
+    return paragraphs, thumbnail, title
 
 def create_stub(flurname, url, folder='./docs/_posts'):
 
@@ -102,9 +104,10 @@ def copy_screenshot(flurname, screenshotfolder=os.path.expanduser('~/Pictures/Sc
 
 
 def create_mastodon_post(file_path):
-    first_paragraph, link_url, paragraphs, thumbnail, title = parse_markdown(
+    paragraphs, thumbnail, title = parse_markdown(
         file_path)
 
+    first_paragraph, link_url = replace_links_with_ellipsis(paragraphs[0])
     remaining_content = '\n\n'.join(paragraphs[1:])
     post = f"{first_paragraph}\n\n{link_url}\n\n{remaining_content}"
     print("Mastodon Post:")
@@ -123,9 +126,9 @@ def create_mastodon_story(file_path):
     first_paragraph, link_url, paragraphs, thumbnail, title = parse_markdown(
         file_path)
 
-    print(paragraphs[1])
-    exit(1)
-    story = f"{first_paragraph}\n\n{link_url}\n\n{paragraphs[0]}"
+    
+    ## first paragraph is specially formatted
+    story_head = f"{first_paragraph}\n\n{link_url}\n\n{paragraphs[1]}"
     print("Mastodon Story:")
     
     if thumbnail:
