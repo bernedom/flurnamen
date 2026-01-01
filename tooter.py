@@ -6,24 +6,18 @@ import datetime
 import shutil
 from glob import glob
 
-def replace_links_with_ellipsis(text):
-    link_match = re.search(r'(?<!!)\[(.*?)\]\((.*?)\)', text)
+def replace_links_with_ellipsis(text, only_extract=False):
+    link_match = re.search(r'!?\[(.*?)\]\((.*?)\)', text)
     if link_match:
         link_text = link_match.group(1)
         link_url = link_match.group(2)
-        text = text.replace(f'[{link_text}]({link_url})', '...')
+        if not only_extract:
+            text = text.replace(f'[{link_text}]({link_url})', '...')
     else:
         link_url = ""
+        link_text = ""
 
-    return text, link_url
-
-def extract_image_from_text(text):
-    image_match = re.search(r'!\[(.*?)\]\((.*?)\)', text)
-    if image_match:
-        alt_text = image_match.group(1)
-        image_url = image_match.group(2)
-        return alt_text, image_url
-    return None, None
+    return text, link_url, link_text
 
 def parse_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -134,7 +128,7 @@ def create_mastodon_story(file_path):
     paragraphs, thumbnail, title = parse_markdown(
         file_path)
 
-    first_paragraph, link_url = replace_links_with_ellipsis(paragraphs[0])
+    first_paragraph, link_url, link_text = replace_links_with_ellipsis(paragraphs[0])
     
     story_head = f"{first_paragraph}\n\n{link_url}\n\n{paragraphs[1]}"
     print("Mastodon Story:")
@@ -149,7 +143,15 @@ def create_mastodon_story(file_path):
               title} zeigt.")
         
     for para in paragraphs[2:]:
-        print(f"Parsing next part of the story ... {para[:30]}...")
+        cleaned_para, link, link_text = replace_links_with_ellipsis(para, only_extract=True)
+        
+        print("\n--- Next Story Part ---\n")
+        print(cleaned_para)
+        if link:
+            print(f"\nLink: {link}\n")
+        if link_text:
+            print(f"Link Text: {link_text}")
+
         
     return (story_head, thumbnail, alt_text)        
 
