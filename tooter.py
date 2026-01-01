@@ -7,7 +7,7 @@ import shutil
 from glob import glob
 
 def replace_links_with_ellipsis(text):
-    link_match = re.search(r'\[(.*?)\]\((.*?)\)', text)
+    link_match = re.search(r'(?<!!)\[(.*?)\]\((.*?)\)', text)
     if link_match:
         link_text = link_match.group(1)
         link_url = link_match.group(2)
@@ -16,6 +16,14 @@ def replace_links_with_ellipsis(text):
         link_url = ""
 
     return text, link_url
+
+def extract_image_from_text(text):
+    image_match = re.search(r'!\[(.*?)\]\((.*?)\)', text)
+    if image_match:
+        alt_text = image_match.group(1)
+        image_url = image_match.group(2)
+        return alt_text, image_url
+    return None, None
 
 def parse_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -123,13 +131,14 @@ def create_mastodon_post(file_path):
     return (post, thumbnail, alt_text)
 
 def create_mastodon_story(file_path):
-    first_paragraph, link_url, paragraphs, thumbnail, title = parse_markdown(
+    paragraphs, thumbnail, title = parse_markdown(
         file_path)
 
+    first_paragraph, link_url = replace_links_with_ellipsis(paragraphs[0])
     
-    ## first paragraph is specially formatted
     story_head = f"{first_paragraph}\n\n{link_url}\n\n{paragraphs[1]}"
     print("Mastodon Story:")
+    print(story_head)
     
     if thumbnail:
         print(f"Thumbnail: {thumbnail}")
@@ -139,8 +148,10 @@ def create_mastodon_story(file_path):
         print(f"Alt Text: Ausschnitt aus Swisstopo, der den Flurnamen {
               title} zeigt.")
         
+    for para in paragraphs[2:]:
+        print(f"Parsing next part of the story ... {para[:30]}...")
         
-    return (story, thumbnail, alt_text)        
+    return (story_head, thumbnail, alt_text)        
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create a Mastodon post from a Markdown file.")
