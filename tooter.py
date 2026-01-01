@@ -120,12 +120,14 @@ def create_mastodon_post(file_path):
     return (post, thumbnail, alt_text)
 
 def create_mastodon_story(file_path):
-    first_paragraph, link_url, remaining_content, thumbnail, title = parse_markdown(
+    first_paragraph, link_url, paragraphs, thumbnail, title = parse_markdown(
         file_path)
 
-    story = f"{first_paragraph}\n\n{link_url}\n\n{remaining_content}"
+    print(paragraphs[1])
+    exit(1)
+    story = f"{first_paragraph}\n\n{link_url}\n\n{paragraphs[0]}"
     print("Mastodon Story:")
-    print(remaining_content)
+    
     if thumbnail:
         print(f"Thumbnail: {thumbnail}")
 
@@ -183,8 +185,7 @@ if __name__ == "__main__":
         )
         print("Logged in successfully.")
     elif os.path.exists(args.file_path):
-        (post, thumbnail, alt) = create_mastodon_post(args.file_path)
-        thumbnail_path = os.path.join('docs', thumbnail)
+        
         mastodon_instance = mastodon.Mastodon(
             client_id='flurnamen_clientcred.secret',
             access_token='flurnamen_usercred.secret',
@@ -192,6 +193,8 @@ if __name__ == "__main__":
         )
 
         if args.post:
+            (post, thumbnail, alt) = create_mastodon_post(args.file_path)
+            thumbnail_path = os.path.join('docs', thumbnail)
             if len(post) > 500:
                 print(f"Warning: Post exceeds 500 characters ({len(post)} characters) and will not be posted to Mastodon.")
             else:
