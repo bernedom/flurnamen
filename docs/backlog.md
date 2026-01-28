@@ -1,6 +1,5 @@
 Hexengraben
 Hackbart
-Gaggi
 Wurst
 Gurgeli
 Häx
@@ -54,7 +53,7 @@ gummi
 Gummithal
 Chegel
 Zimmer
-Les Maisons blanches
+La Gay
 Jubelei
 Cazzòra - Heilige Scheisse
 Huerehübel
