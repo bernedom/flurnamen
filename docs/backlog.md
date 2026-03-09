@@ -103,7 +103,6 @@ Mälchsetzi
 Fickter
 Scheffloch - Eine Mischung aus Scheff und Arschloch ist das...
 bei den seelenen - Bei den seelen allerseelen oder so
-Chatzestriegel - KAtze reinigen
 Chüngeler 
 Chüngeliinsel
 Dreichüngelwald
@@ -153,7 +152,6 @@ Botanisch
 Mittlere Länge
 Schwarz Chöpf
 Wiehnacht-Tobel
-Böse Sulz - Ende Skitourensaison
 Schluck
 Wolfheulete
 
