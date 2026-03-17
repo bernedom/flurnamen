@@ -154,6 +154,7 @@ Schwarz Chöpf
 Wiehnacht-Tobel
 Schluck
 Wolfheulete
+Klemme
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
