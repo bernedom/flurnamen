@@ -12,7 +12,6 @@ Zopf
 Lasagn
 Zwibacki
 Blutwurstmatten
-Erster Gang
 Chlepfhütte
 Weisstannen
 Hexenkirchli
