@@ -155,6 +155,7 @@ Schluck
 Wolfheulete
 Klemme
 Hosenbündel
+Chisteholz
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
@@ -164,4 +165,4 @@ https://www.giswiki.ch/Kuriose_Lokalnamen
 https://www.tagesanzeiger.ch/zuerich-kuriose-ortsnamen-wie-speck-new-york-und-himmelreich-480132553848 
 https://www.giswiki.ch/Kuriose_Lokalnamen_Kategorie_Tiere
 
-* Make threads
+* Make threadsD
