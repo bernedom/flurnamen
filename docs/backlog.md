@@ -165,4 +165,3 @@ https://www.giswiki.ch/Kuriose_Lokalnamen
 https://www.tagesanzeiger.ch/zuerich-kuriose-ortsnamen-wie-speck-new-york-und-himmelreich-480132553848 
 https://www.giswiki.ch/Kuriose_Lokalnamen_Kategorie_Tiere
 
-* Make threadsD
