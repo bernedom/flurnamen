@@ -50,7 +50,6 @@ Grossi Vorschess
 Finstersee
 gummi
 Gummithal
-Chegel
 Zimmer
 La Gay
 Jubelei
@@ -64,10 +63,8 @@ Mittelpunkt der Schweiz - Jareshälfte
 tiefester Punkt
 Höchster Punkt
 Nördlicher, Westlicher, Südlicher, Östlicher Punkt etc.
-Osterhubel
 Sägissen
 0-punkt koordinatensystem
-Bschissni Matte
 Bim Bschissna Töbeli
 Im bschissnen Graben
 Lattenwald
@@ -169,6 +166,7 @@ Glögglifels
 Napoleonhölleli
 Hundshenki
 Himmelberg
+Grabishöll
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
