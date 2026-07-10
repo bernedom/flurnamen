@@ -5,7 +5,6 @@ Gurgeli
 Häx
 Hexentobel
 honig
-Geiss
 Geiss-Chopf
 Zöpfli
 Zopf
@@ -168,6 +167,12 @@ Hundshenki
 Himmelberg
 Grabishöll
 Uf em höha Bord
+Usser Haut
+I Tanne hinne
+goldacker
+Im fischtere Grabe
+Freudigeschür
+Freudige
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
