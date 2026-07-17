@@ -8,8 +8,6 @@ honig
 Geiss-Chopf
 Zöpfli
 Zopf
-Lasagn
-Zwibacki
 Blutwurstmatten
 Chlepfhütte
 Weisstannen
