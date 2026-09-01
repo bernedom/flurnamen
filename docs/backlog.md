@@ -68,7 +68,6 @@ Eierhals
 in da undere chneu - https://s.geo.admin.ch/nn7k6i6sgltf
 Rotzberg
 Gipfli
-Schlimmberg
 Uf de chessle
 Brotvorschess
 Bim Hirt
@@ -177,6 +176,8 @@ schissplanggen
 Chatzenschwanz
 Wintermies
 Wandtafel
+isenbart
+hasebrune
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
