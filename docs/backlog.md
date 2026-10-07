@@ -178,6 +178,9 @@ Wandtafel
 isenbart
 hasebrune
 Iibruch
+Huet
+Bi den Lättli
+Chuehirni
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
