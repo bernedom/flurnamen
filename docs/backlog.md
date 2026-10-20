@@ -33,7 +33,6 @@ Schläg
 Pool
 Libanon
 turin
-Prag
 Ziel
 Wiler vor Holz
 Schlund
@@ -180,7 +179,8 @@ hasebrune
 Iibruch
 Huet
 Bi den Lättli
-Chuehirni
+Ob der Waldwiesen
+Chromen - Verchromen
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
