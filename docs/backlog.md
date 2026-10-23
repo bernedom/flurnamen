@@ -181,6 +181,8 @@ Huet
 Bi den Lättli
 Ob der Waldwiesen
 Chromen - Verchromen
+Vesuv
+
 
 Sägitaler see -> kryophil
 https://www.srf.ch/radio-srf-virus/aktuell-die-15-besten-kraftausdruecke-uf-schwiizerduetsch
