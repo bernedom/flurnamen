@@ -88,7 +88,7 @@ def copy_screenshot(flurname, screenshotfolder=os.path.expanduser('~/Pictures/Sc
 
     # Get today's date in the screenshot format
     date_str = datetime.datetime.now().strftime('%Y-%m-%d')
-    pattern = os.path.join(screenshotfolder, f"Screenshot from {date_str} *.png")
+    pattern = os.path.join(screenshotfolder, f"Screenshot [fF]rom {date_str} *.png")
     screenshots = glob(pattern)
 
     if not screenshots:
